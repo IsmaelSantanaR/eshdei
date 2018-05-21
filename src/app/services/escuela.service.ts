@@ -15,7 +15,7 @@ export class EscuelaService {
       this.http.get('https://escuela-kik.firebaseio.com/Eshdei/index.json')
         .subscribe( res=>{
           this.escuela=res.json();
-          console.log( this.escuela );
+          //console.log( this.escuela );
           this.cargando=false;
         });
 
